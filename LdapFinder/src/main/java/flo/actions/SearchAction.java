@@ -23,7 +23,7 @@ public class SearchAction implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 	System.out.println("action");
 			
-		// je récupère la requête : 
+		// je rï¿½cupï¿½re la requï¿½te : 
 		String searchField = directory.getSearchField();
 		String searchValue = directory.getSearchValue();
 
@@ -42,31 +42,11 @@ public class SearchAction implements ActionListener {
 		}
 		
 		
-		// passe les résultat au directory pour qu'il les affiche
+		// passe les rï¿½sultat au directory pour qu'il les affiche
 		//directory.setEntries(createFakeList());
 		
 		
 	}
-	
-	
-	List<DirectoryEntry> createFakeList() {
-		
-		  List<DirectoryEntry> result = new ArrayList<DirectoryEntry>();
-		  
-		  result.add(new DirectoryEntry("Florent DUPONT (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Julien BIDET (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Cyril HUSAR (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Emmanuel LEGROS (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Florent DUPONT (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Julien BIDET (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Cyril HUSAR (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Emmanuel LEGROS (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Florent DUPONT (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Julien BIDET (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Cyril HUSAR (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		  result.add(new DirectoryEntry("Emmanuel LEGROS (Ext Thales)", "pfdt12811", "A216", "ext.thales.florent.dupont@sncf.fr", "37 93 39"));
-		 
-		  return result;
-	  }
+
 
 }
